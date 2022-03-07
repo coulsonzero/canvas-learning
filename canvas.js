@@ -827,18 +827,14 @@ const multiMove2 = () => {
 
 
 
-const text2 = (text, fontSize, color) => {
+const font = (text, fontSize, color) => {
 	context.font = fontSize + " Arial";
 	context.fillStyle = color;
 	// 必须放在最后！！
 	context.fillText(text, 50, 100);
 };
+font("My Jumper Game", "32px", "red")
 
-class font {
-    constructor(text, fontSize, color) {
-        this.text = text;
-        this.fontSize = fontSize;
-        this.color = color;
-    }
-}
-text2("My Jumper Game", "32px", "red")
+
+
+
