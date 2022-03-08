@@ -1,8 +1,8 @@
 
 var canvas = document.getElementById("canvas")
 var context = canvas.getContext("2d")
-context.translate(0.5, 0.5);
-context.scale(4, 4)
+// context.translate(0.5, 0.5);
+// context.scale(4, 4)
 
 
 /********************
@@ -158,9 +158,6 @@ const animate = () => {
 		// step3. update the position
 		x += 10;
 		if (x >= 600) x = -100;
-
-		// size += step
-		// if (size >= 150 || size <= 50) step *= -1
 	}
     // step4. repeat the process
 	setInterval(draw, 16);   // 浏览器运行不流畅！！

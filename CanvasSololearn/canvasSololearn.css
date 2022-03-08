@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: black;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#sololearn {
+    position: absolute;
+    background-image: url('https://sololearn.com/Images/favicon.ico');
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#rangeVal {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 0.8em;
+    z-index: 2;
+}
