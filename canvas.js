@@ -1,6 +1,8 @@
 
 var canvas = document.getElementById("canvas")
 var context = canvas.getContext("2d")
+context.translate(0.5, 0.5);
+context.scale(4, 4)
 
 
 /********************
@@ -339,7 +341,7 @@ const fpsAdjustLoop = () => {
 	}
 	draw();
 };
-// fpsAdjustLoop();
+fpsAdjustLoop();
 
 
 /**
@@ -833,7 +835,7 @@ const font = (text, fontSize, color) => {
 	// 必须放在最后！！
 	context.fillText(text, 50, 100);
 };
-font("My Jumper Game", "32px", "red")
+// font("My Jumper Game", "32px", "red")
 
 
 
